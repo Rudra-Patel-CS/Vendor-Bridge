@@ -7,7 +7,7 @@ VendorBridge is a modern Procurement & Vendor Management ERP designed to streaml
 ## 🌐 Live Demo
 
 **Deployed Application:**
-<YOUR_DEPLOYED_LINK>
+https://vendorbridge-gray.vercel.app
 
 ---
 
