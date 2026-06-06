@@ -14,7 +14,7 @@ import {
 } from "recharts"
 import {
   ChartContainer,
-  ChartTooltip,
+  ChartTooltip,  
   ChartTooltipContent,
   type ChartConfig,
 } from "@/components/ui/chart"
