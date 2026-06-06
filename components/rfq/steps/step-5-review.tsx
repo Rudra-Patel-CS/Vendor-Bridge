@@ -193,9 +193,9 @@ export function Step5Review() {
               .map((item) => (
                 <div
                   key={item.id}
-                  className="grid grid-cols-2 gap-2 px-4 py-3 sm:grid-cols-[2fr_0.8fr_0.8fr_1fr] sm:gap-3 sm:items-center"
+                  className="grid grid-cols-3 gap-2 px-4 py-3 sm:grid-cols-[2fr_0.8fr_0.8fr_1fr] sm:gap-3 sm:items-center"
                 >
-                  <div className="col-span-2 sm:col-span-1">
+                  <div className="col-span-3 sm:col-span-1">
                     <span className="text-sm font-medium text-foreground">{item.name}</span>
                     {item.description && (
                       <span className="block text-xs text-muted-foreground">{item.description}</span>

@@ -24,7 +24,7 @@ export function RfqStepper() {
 
   return (
     <nav aria-label="RFQ creation steps" className="w-full">
-      <ol className="flex items-center gap-0">
+      <ol className="flex items-start gap-0">
         {steps.map((s, i) => {
           const isCurrent = i === step
           const isCompleted = completedSteps.includes(i) && i !== step
@@ -77,7 +77,7 @@ export function RfqStepper() {
                 {/* Label */}
                 <span
                   className={cn(
-                    "text-xs font-medium transition-colors whitespace-nowrap",
+                    "text-[10px] sm:text-xs font-medium transition-colors text-center whitespace-normal max-w-[65px] sm:max-w-none",
                     isCurrent && "text-primary",
                     isCompleted && "text-foreground",
                     !isCurrent && !isCompleted && "text-muted-foreground"
